@@ -1,0 +1,7 @@
+#content-image {
+    float: left;
+    background-image: url("https:unsplash.it/1000/400");
+    width: 50%;
+    height: 400pX;
+    border: solid white;
+}

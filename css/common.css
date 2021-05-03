@@ -1,0 +1,38 @@
+body {
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", "Hiragino Kaku Gothic ProN", メイリオ, meiryo, sans-serif;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+
+    background-color: grey;
+    background-image: url("https:unsplash.it/1920/1080");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#menu-bar ul {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+#menu-bar ul li {
+    background-color: black;
+    outline: solid gray;
+    position: relative;
+    float: left;
+    width: calc(100%/3);
+    list-style: none;
+}
+
+#menu-bar ul li a {
+    display: block;
+    padding: 17px 5%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}

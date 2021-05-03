@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>勉強用WEBサンプル</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <nav id="menu-bar">
+                <ul>
+                    <li><a href="index.html">ホーム</a></li>
+                    <li><a href="content.html">コンテンツ</a></li>
+                    <li><a href="form.html">フォーム</a></li>
+                </ul>
+            </nav>
+        </header>
+        <footer>
+            <form action="cgi-bin/formmail.cgi" method="post">
+                <p>
+                    名前：<input type="text" name="name" size="40">
+                </p>
+                <p>
+                    性別：<input type="radio" name="sex" value="male">男
+                    <input type="radio" name="sex" value="female">女
+                </p>
+                <p>
+                    血液型：<select name="blood">
+                        <option value="A">A型</option>
+                        <option value="B">B型</option>
+                        <option value="O">O型</option>
+                        <option value="AB">AB型</option>
+                    </select>
+                </p>
+                <p>
+                    ご感想：<br>
+                    <textarea name="kanso" rows="4" cols="40"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="送信">
+                </p>
+            </form>
+        </footer>
+    </div>
+</body>
+
+</html>
